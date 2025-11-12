@@ -15,12 +15,12 @@ public class OOPBasicsLab {
     public static void main(String[] args) {
         
         
-         System.out.println("Lab Activity 8: Object-Oriented Programming (OOP) Basics");
+        System.out.println("Lab Activity 8: Object-Oriented Programming (OOP) Basics");
 
         System.out.println("Activity 1 - Create a Class and Object\n");
 
-        Student Kenn = new Student("Kenn", 17, 96.7);
-        Student Ken = new Student("Ken", 19, 86.3);
+        Student Kenn = new Student("Kenn", 13, 94.7);
+        Student Ken = new Student("Ken", 24, 76.3);
 
         Kenn.displayInfo();
         Ken.displayInfo();
@@ -28,12 +28,12 @@ public class OOPBasicsLab {
         System.out.println("\nActivity 2 - Encapsulation and Getters/Setters\n");
 
         Kenn.setName("Lanhiel");
-        Kenn.setAge(19);
-        Kenn.setGrade(95.0);
+        Kenn.setAge(20);
+        Kenn.setGrade(85.0);
 
         Ken.setName("Lan");
         Ken.setAge(20);
-        Ken.setGrade(90.5);
+        Ken.setGrade(98.5);
 
         Kenn.displayInfo();
         Ken.displayInfo();
@@ -41,8 +41,8 @@ public class OOPBasicsLab {
         System.out.println("\nActivity 3 - Vehicle Class Example\n");
 
         //  two objects
-        Vehicle car = new Vehicle("BMW", "X5", 60);
-        Vehicle motorcycle = new Vehicle("Yamaha", "Mio", 80);
+        Vehicle car = new Vehicle("BMW", "X5", 40);
+        Vehicle motorcycle = new Vehicle("Yamaha", "Mio", 20);
 
         // Display initial info
         System.out.println("Initial Vehicle Status:");
@@ -50,8 +50,8 @@ public class OOPBasicsLab {
         motorcycle.displayStatus();
 
         // Accelerate both
-        car.accelerate(30);
-        motorcycle.accelerate(40);
+        car.accelerate(50);
+        motorcycle.accelerate(30);
         System.out.println("--------------------");
 
         // Display updated info
@@ -84,12 +84,12 @@ public class OOPBasicsLab {
 
             switch (choice) {
                 case 1:
-                    System.out.print("Enter deposit amount: ₱");
+                    System.out.print("Enter deposit amount: ");
                     double depositAmount = input.nextDouble();
                     account.deposit(depositAmount);
                     break;
                 case 2:
-                    System.out.print("Enter withdrawal amount: ₱");
+                    System.out.print("Enter withdrawal amount: ");
                     double withdrawAmount = input.nextDouble();
                     account.withdraw(withdrawAmount);
                     break;
