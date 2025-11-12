@@ -21,7 +21,7 @@ public class Vehicle {
         this.speed = speed;
     }
 
-    // Method 
+    // method 
     public void accelerate(double increment) {
         speed += increment;
         System.out.println(model + " accelerated by " + increment + " km/h.");
@@ -33,6 +33,8 @@ public class Vehicle {
         System.out.println("Model: " + model);
         System.out.println("Current Speed: " + speed + " km/h");
         System.out.println("----------------------");
+        
+        
     }
 
 }

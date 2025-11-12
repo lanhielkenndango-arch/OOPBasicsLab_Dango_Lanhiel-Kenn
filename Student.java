@@ -9,6 +9,7 @@ package com.mycompany.oopbasicslab;
  * @author shadow
  */
 public class Student {
+    // attributes
     private String name;
     private int age;
     private double grade;
@@ -51,5 +52,7 @@ public class Student {
         System.out.println("Age: " + age);
         System.out.println("Grade: " + grade);
         System.out.println("----------------");
+        
+        
     }
 }
